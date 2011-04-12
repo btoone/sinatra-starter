@@ -1,0 +1,156 @@
+/* Imports
+---------- */
+
+@import url("../stylesheets/reset.css");
+
+body {
+  background: #F5F4EF url('bg.jpg');
+  margin: 0 auto;
+  width: 800px;
+  color: #000305;
+  font-size: 87.5%; /* Base font size: 14px */
+  font-family: 'Trebuchet MS', Trebuchet, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  line-height: 1.429;
+  padding: 0;
+  text-align: left; 
+}
+
+h1 {
+  font-family: 'Cherry Cream Soda';
+  font-size: 450%;
+  margin: 25px 0;
+  text-align: center;
+}
+
+aside {
+margin: 25px 0;
+}
+
+section {
+  font-size: 120%;
+}
+
+section ul {
+  list-style-type: disc;
+  margin: 15px 25px;
+}
+
+h2 {
+  color: #750000;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+footer ul {
+  text-align: center;
+  margin: 10% 0 5px 0;
+}
+footer ul li {
+  display: inline;
+  margin: 0 10% 0 10%;
+}
+
+footer p {
+  color: #ccc;
+  font-size: 85%;
+  text-align: center;
+}
+
+a {
+  color: #ccc;
+  font-size: 85%;
+  padding: 5px;
+  text-decoration: underline;
+}
+
+a:hover {
+  background-color: #750000;
+  color: #fff;
+  text-decoration: none;
+}
+
+.code {
+  background: #000305;
+  color: #fff;
+  padding: 0 2px;
+  font-family: courier, "courier new", monospace;
+  font-size: 90%;
+}
+
+#disclaimer {
+  color: #aaa;
+  font-size: 85%;
+  text-align: center;
+}
+
+#disclaimer a {
+  font-size: 100%;
+  color: #aaa;
+}
+
+/* prettyprint overides 
+   http://code.google.com/p/google-code-prettify
+------------------------------------------------ */
+.prettyprint {
+  font-size: 120%;
+  text-align: center;
+}
+
+/* page curl
+------------ */
+
+.wrapper {
+  background: #FFF;
+  margin: 25px 0;
+  padding: 25px;
+  width: 700px;
+  border: 1px solid #efefef;
+  position: relative;
+  background: #ffffff; /* old browsers */
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset;
+  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 60px rgba(0, 0, 0, 0.1) inset;
+  -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset;
+  
+  border-radius: 0 0 120px 120px / 0 0 6px 6px;
+  -webkit-border-radius: 0 0 120px 120px / 0 0 6px 6px;
+  -moz-border-radius: 0 0 120px 120px / 0 0 6px 6px;
+  
+}
+
+.wrapper:after { 
+  z-index: -1; 
+  position: absolute; 
+  background: transparent;
+  width: 25%; 
+  height: 25%; 
+  content: ''; 
+  right: 15px; 
+  bottom: 15px; 
+  transform: skew(15deg) rotate(6deg);
+  -webkit-transform: skew(15deg) rotate(6deg);
+  -moz-transform: skew(15deg) rotate(6deg);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); 
+  -webkit-box-shadow: 0 8px 16px rgba(0, 0, 0, 1); 
+  -moz-box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+} 
+
+.wrapper:before { 
+  z-index: -2; 
+  position: absolute; 
+  background: transparent; 
+  width: 25%; 
+  height: 25%; 
+  content: ''; 
+  left: 15px; 
+  bottom: 15px; 
+  transform: skew(-15deg) rotate(-6deg); 
+  -webkit-transform: skew(-15deg) rotate(-6deg); 
+  -moz-transform: skew(-15deg) rotate(-6deg); 
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); 
+  -webkit-box-shadow: 0 8px 16px rgba(0, 0, 0, 1); 
+  -moz-box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+/* Embedded PrettyPrint Style
+------------------------------ */
+.str{color:#080}.kwd{color:#008}.com{color:#800}.typ{color:#606}.lit{color:#066}.pun{color:#660}.pln{color:#000}.tag{color:#008}.atn{color:#606}.atv{color:#080}.dec{color:#606}pre.prettyprint{padding:2px;border:1px solid #888}ol.linenums{margin-top:0;margin-bottom:0}li.L0,li.L1,li.L2,li.L3,li.L5,li.L6,li.L7,li.L8{list-style:none}li.L1,li.L3,li.L5,li.L7,li.L9{background:#eee}@media print{.str{color:#060}.kwd{color:#006;font-weight:bold}.com{color:#600;font-style:italic}.typ{color:#404;font-weight:bold}.lit{color:#044}.pun{color:#440}.pln{color:#000}.tag{color:#006;font-weight:bold}.atn{color:#404}.atv{color:#060}}
