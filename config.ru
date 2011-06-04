@@ -1,3 +1,7 @@
+require 'bundler'
+
+Bundler.require
+
 require 'app.rb'
 
 # set variables here like :environment, :run, :root, or :views
