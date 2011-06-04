@@ -37,7 +37,6 @@ The index page lists some next steps to take but if you're in a hurry just delet
 **TODO**
 
 * Support sass, possibly compass
-* Create a rake task to archive the repo and initialize a new git repo with your app name
 * Wire up MongoDB
 * Wire up DataMapper
 * Auto load dm migrations to $LOAD_PATH
