@@ -36,14 +36,14 @@ The index page lists some next steps to take but if you're in a hurry just delet
 
 **TODO**
 
+* Support sass, possibly compass
+* Create a rake task to archive the repo and initialize a new git repo with your app name
+* Wire up MongoDB
+* Wire up DataMapper
+* Auto load dm migrations to $LOAD_PATH
 * Ask for permission to use background image
 * Evenly distribute resource links in the footer
-* Wire up DataMapper and a nosql ORM
 * Set session_secret for shotgun
-* Auto load dm migrations to $LOAD_PATH
-* Wire up a CSS Framework (create a rake task to give you the choice of which one)
-* Create a rake task to archive the repo and initialize a new git repo with your app name
 * Add more information on getting started to blank slate
 * Add config, before, helper blocks
-* Support sass, possibly compass
 * Add ability to see debug info in a div on any page while in development
