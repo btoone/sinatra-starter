@@ -38,8 +38,7 @@ The index page lists some next steps to take but if you're in a hurry just delet
 
 * Ask for permission to use background image
 * Evenly distribute resource links in the footer
-* Add Bundler
-* Wire up DataMapper
+* Wire up DataMapper and a nosql ORM
 * Set session_secret for shotgun
 * Auto load dm migrations to $LOAD_PATH
 * Wire up a CSS Framework (create a rake task to give you the choice of which one)
