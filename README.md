@@ -45,5 +45,5 @@ The index page lists some next steps to take but if you're in a hurry just delet
 * Create a rake task to archive the repo and initialize a new git repo with your app name
 * Add more information on getting started to blank slate
 * Add config, before, helper blocks
-* Support haml, sass, possibly compass
+* Support sass, possibly compass
 * Add ability to see debug info in a div on any page while in development

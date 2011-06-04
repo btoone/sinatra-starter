@@ -2,7 +2,9 @@ require 'sinatra'
 
 get '/' do
   @time = Time.now
-  erb :index
+  haml :index
+  # or if you want to use erb templates
+  # erb :index
 end
 
 # To use inline templates uncomment and put code in the templates
