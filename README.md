@@ -6,7 +6,17 @@ A basic template that you can fork to create a Sinatra application.
 Usage
 -----
 
-Fork this project and run the application with either the default Sinatra way or use Shotgun.
+There are a couple of options to get started:
+
+* 1. Use Github's download feature to start off with an un-versioned code base.
+* 2. Fork this project and run `git archive` when you want to create a new app from this code
+
+    $ mkdir /path/to/new_app
+    $ git archive master | tar -x -C /path/to/new_app
+
+Now initialize new_app with git like you would for any other new project.
+
+To run the application you can either do it the default Sinatra way or use Shotgun.
 
 **Sinatra:**
 
